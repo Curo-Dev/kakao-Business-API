@@ -1,13 +1,16 @@
 # 카카오 옐로아이디 API 🎈
 
-## Author
+## 1. Explanation
 
-👤 **Junseo Son**
+#### 1.1 Function
 
-* Github: [@cheongan](https://github.com/cheongan)
+  - X
 
+## 2. API specifications
 
-## 권장 커밋 메세지
+- X
+
+## Recommended Commit Message
 
 | 언제?                              | 커밋 메시지                               |
 | ---------------------------------- | ----------------------------------------- |
