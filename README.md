@@ -1,4 +1,4 @@
-# 카카오 옐로아이디 API 🎈
+# kakao Business API 🎈
 
 ## 1. Explanation
 
