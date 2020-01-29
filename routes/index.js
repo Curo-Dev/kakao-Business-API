@@ -4,7 +4,7 @@ const router = express.Router();
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
-router.post('/', function(req, res, next) {    
+router.post('/count', function(req, res, next) {    
   const { id } = req.body;  
   
   if(!id) { res.json({ "code" : 100 }); return }  // ID is Not Found
