@@ -24,7 +24,7 @@
 - **예제**
 ```
 curl -XPOST 'https://:your_server_url/count' -d '{
-  "id": ":id:"
+  "id": ":id"
 }'
 ```
 - **Response**
