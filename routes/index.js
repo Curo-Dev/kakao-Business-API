@@ -4,12 +4,6 @@ const router = express.Router();
 const cheerio = require('cheerio');
 const request = require('request-promise');
 
-router.get('/', function(req, res, next) {  
-
-  res.render('index', { title: 'Express' });
-});
-
-
 router.post('/', function(req, res, next) {    
   const { id } = req.body;  
   
@@ -31,7 +25,5 @@ router.post('/', function(req, res, next) {
     res.json({ "code" : 101 }); return; // ID is Wrong  
   })
 });
-
-
 
 module.exports = router;
